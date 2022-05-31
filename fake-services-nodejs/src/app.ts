@@ -8,7 +8,7 @@ var amqp = require('amqplib/callback_api');
 const queuePaymentRequest = 'paymentRequest';
 const queuePaymentResponse = 'paymentResponse';
 
-amqp.connect('amqp://localhost', function(error0, connection) {
+amqp.connect('amqp://52.29.86.167', function(error0, connection) {
   if (error0) {
     throw error0;
   }
