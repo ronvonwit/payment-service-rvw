@@ -1,10 +1,11 @@
 # payment-service-rvw
-Component behorende bij Ticket Booking Camunda demo opstelling
+Component behorende bij Ticket Booking Camunda demo opstelling, verantwoordelijk voor de betaling. Wordt aangeroepen via RabbitMQ.
 
 ## Code gedeployed middels GitHub Actions
+* Gebruikte Secrets: EC2 Instance public IP en EC2 SSH key
 
 ## Aanmaken instanties EC2 Linux 2
-* toevoegen security rechten om XXXX
+* geen bijzondere security rechten nodig.
 
 ## Installation Amazon EC2 Linux 2
 * sudo yum update
@@ -13,7 +14,7 @@ Component behorende bij Ticket Booking Camunda demo opstelling
 * sudo npm install -g typescript
 * sudo npm install -g ts-node
 
-## Run NodeJs Fake Services
+## Run NodeJs Fake Payment Service
 
 If you want to understand the code, please have a look into this get started tutorial: https://github.com/camunda/camunda-platform-get-started/tree/main/nodejs
 
